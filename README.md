@@ -1,4 +1,4 @@
-##Udemy Courses Scraping
+##Platzi Users Scraping
 
 ###Usage
 
@@ -10,7 +10,7 @@ Once you have installed all the gems, execute the script with the following comm
 ruby run.rb
 ```
 
-The above commad will scrape the data from some Udemy courses pages (The ones that are in the USERS_PATHS constant in the categories.rb file) and retrieves the relevant data as a JSON and CSV(see below for more information).
+The above commad will scrape the data from some Platzi users profiles (The ones that are in the USERS_PATHS constant in the users.rb file) and retrieves the relevant data as a JSON and CSV(see below for more information).
 
 ###Sample Outputs 
 

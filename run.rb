@@ -51,7 +51,7 @@ def fetch_data_from_url(base_url, users_paths)
                 bar.increment
                 build_users_information(doc, composed_url)
             rescue Exception => e
-                puts "URL redirection problem: #{e.message}"
+                bar.log "URL redirection problem: #{e.message}"
             end
         end.compact
     )
